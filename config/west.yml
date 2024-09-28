@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: jleguina
-      url-base: https://github.com/jleguina
+    # - name: andrewjrae
+    #   url-base: https://github.com/andrewjrae
   projects:
     - name: zmk
-      remote: jleguina
-      revision: jleguina
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
